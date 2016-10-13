@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/blackSqueeze"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.starsoft.traveldiary.PostActivity"
+    tools:showIn="@layout/activity_post">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="1dp"
+            app:cardCornerRadius="1dp">
+
+                <com.starsoft.traveldiary.ui.fonts.CusEditText
+                    android:id="@+id/postDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:minLines="8"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="Describe your adventure"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    />
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical">
+
+            <com.starsoft.traveldiary.ui.fonts.CusEditText
+                android:id="@+id/postTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Add Tags"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                />
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="48dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:weightSum="1">-->
+
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/addOp1"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="0.25"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--app:cardElevation="3dp"-->
+                <!--app:cardCornerRadius="3dp">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@drawable/chain"-->
+                    <!--/>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/addOp2"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="0.25"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--app:cardElevation="3dp"-->
+                <!--app:cardCornerRadius="3dp">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@drawable/technology"-->
+                    <!--/>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/addOp3"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="0.25"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--app:cardElevation="3dp"-->
+                <!--app:cardCornerRadius="3dp">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@drawable/placeholder"-->
+                    <!--/>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/addOp4"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="0.25"-->
+                <!--app:cardElevation="3dp"-->
+                <!--app:cardCornerRadius="2dp">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@drawable/users"-->
+                    <!--/>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

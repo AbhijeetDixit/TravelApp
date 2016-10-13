@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "109209939430",
+    "firebase_url": "https://travelindia-1279.firebaseio.com",
+    "project_id": "travelindia-1279",
+    "storage_bucket": "travelindia-1279.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109209939430:android:0d2cfe4b9f2869b8",
+        "android_client_info": {
+          "package_name": "com.starsoft.traveldiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109209939430-bq6kauv9p047v1ioutskspgej4k7i8ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkD08zsSAgK-mVABVL_HyZpADC1_Y1NhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,146 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="minifab_margin">20dp</dimen>
+
+
+    <!-- Bottom Navigation -->
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+
+    <dimen name="bottom_navigation_min_width">104dp</dimen>
+    <dimen name="bottom_navigation_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="bottom_navigation_icon">24dp</dimen>
+
+    <dimen name="bottom_navigation_margin_top_active">6dp</dimen>
+    <dimen name="bottom_navigation_margin_top_inactive">8dp</dimen>
+    <dimen name="bottom_navigation_margin_bottom">7dp</dimen>
+    <dimen name="bottom_navigation_padding_left">12dp</dimen>
+    <dimen name="bottom_navigation_padding_right">12dp</dimen>
+
+    <dimen name="bottom_navigation_text_size_active">14sp</dimen>
+    <dimen name="bottom_navigation_text_size_inactive">12sp</dimen>
+
+    <dimen name="bottom_navigation_text_size_forced_active">11sp</dimen>
+    <dimen name="bottom_navigation_text_size_forced_inactive">10sp</dimen>
+
+    <!-- Small -->
+    <dimen name="bottom_navigation_small_active_min_width">96dp</dimen>
+    <dimen name="bottom_navigation_small_active_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_small_inactive_min_width">64dp</dimen>
+    <dimen name="bottom_navigation_small_inactive_max_width">96dp</dimen>
+
+    <dimen name="bottom_navigation_small_margin_top_active">6dp</dimen>
+    <dimen name="bottom_navigation_small_margin_top">16dp</dimen>
+    <dimen name="bottom_navigation_small_margin_bottom">16dp</dimen>
+
+    <dimen name="bottom_navigation_small_selected_width_difference">10dp</dimen>
+
+    <!-- Notifications -->
+    <dimen name="bottom_navigation_notification_width">16dp</dimen>
+    <dimen name="bottom_navigation_notification_height">16dp</dimen>
+    <dimen name="bottom_navigation_notification_radius">8dp</dimen>
+    <dimen name="bottom_navigation_notification_elevation">1dp</dimen>
+    <dimen name="bottom_navigation_notification_padding">3dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top_classic">4dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_left">16dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_left_active">16dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top">14dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top_active">3dp</dimen>
+    <dimen name="bottom_navigation_notification_text_size">9sp</dimen>
+    <dimen name="search_height">46dp</dimen>
+    <dimen name="search_key_line">16dp</dimen>
+    <dimen name="search_icon">24dp</dimen>
+    <dimen name="search_view_margin_text">24dp</dimen>
+
+
+    <!-- Margin to the left and right of the search box. -->
+    <dimen name="search_margin_horizontal">8dp</dimen>
+    <!-- Margin above the search box. -->
+    <dimen name="search_top_margin">8dp</dimen>
+    <!-- Margin below the search box. -->
+    <dimen name="search_bottom_margin">8dp</dimen>
+    <dimen name="search_collapsed_text_size">14sp</dimen>
+    <!-- Search box interior padding - left -->
+    <dimen name="search_box_left_padding">8dp</dimen>
+    <!-- Search box interior padding - right -->
+    <dimen name="search_box_right_padding">8dp</dimen>
+
+    <!-- Padding around the icon in the search box. -->
+    <dimen name="search_box_icon_margin">4dp</dimen>
+    <dimen name="search_box_search_icon_padding">2dp</dimen>
+    <dimen name="search_box_collapsed_text_margin_left">16dp</dimen>
+    <dimen name="search_list_padding_top">16dp</dimen>
+    <dimen name="search_box_elevation">3dp</dimen>
+
+    <!-- Size of the icon (voice search, back arrow) in the search box. -->
+    <dimen name="search_box_icon_size">24dp</dimen>
+    <!-- Size of the close icon.
+         Because it expands diagonally, it needs to be shrunk to look relatively the same size -->
+    <dimen name="search_box_close_icon_size">24dp</dimen>
+    <!-- Padding around back arrow icon in the search box -->
+    <dimen name="search_box_navigation_icon_margin">14dp</dimen>
+    <!-- Padding around close icon in the search box -->
+    <dimen name="search_box_close_icon_margin">16dp</dimen>
+    <!-- Left margin of the text field in the search box. -->
+    <dimen name="search_box_text_left_margin">8dp</dimen>
+    <!-- Search box text size -->
+    <dimen name="search_text_size">20sp</dimen>
+
+    <!-- Approx Size of the layout. This is not used anywhere in layouts
+            but can be used to give margin on the main activity. -->
+    <dimen name="search_view_layout_approx_height">120dp</dimen>
+
+
+    <!-- default BottomNavigation height -->
+    <dimen name="bbn_bottom_navigation_height">56dp</dimen>
+
+    <!-- default BottomNavigation width (for tablets) -->
+    <dimen name="bbn_bottom_navigation_width">72dp</dimen>
+
+    <!-- default BottomNavigation elevation -->
+    <dimen name="bbn_elevation">8dp</dimen>
+    <dimen name="bbn_elevation_tablet">0dp</dimen>
+
+    <!-- top shadow size -->
+    <dimen name="bbn_top_shadow_height">3dp</dimen>
+
+    <!-- shifting item dimensions -->
+    <dimen name="bbn_shifting_item_padding_bottom_active">10dp</dimen>
+    <dimen name="bbn_shifting_item_padding_bottom_inactive">16dp</dimen>
+    <dimen name="bbn_shifting_item_padding_top">6dp</dimen>
+    <dimen name="bbn_shifting_item_icon_size">24dp</dimen>
+    <dimen name="bbn_shifting_text_size">14dp</dimen>
+    <dimen name="bbn_shifting_item_ripple_radius">48dp</dimen>
+    <dimen name="bbn_shifting_maxActiveItemWidth">168dp</dimen>
+    <dimen name="bbn_shifting_minActiveItemWidth">96dp</dimen>
+    <dimen name="bbn_shifting_maxInactiveItemWidth">96dp</dimen>
+    <dimen name="bbn_shifting_minInactiveItemWidth">64dp</dimen>
+
+    <!-- fixed item dimensions -->
+    <dimen name="bbn_fixed_maxActiveItemWidth">168dp</dimen>
+    <dimen name="bbn_fixed_minActiveItemWidth">104dp</dimen>
+    <dimen name="bbn_fixed_item_padding_top_active">6dp</dimen>
+    <dimen name="bbn_fixed_item_padding_top_inactive">8dp</dimen>
+    <dimen name="bbn_fixed_item_padding_bottom">10dp</dimen>
+    <dimen name="bbn_fixed_item_padding_horizontal">12dp</dimen>
+    <dimen name="bbn_fixed_text_size_inactive">12dp</dimen>
+    <dimen name="bbn_fixed_item_icon_size">24dp</dimen>
+
+    <!-- tablet -->
+    <dimen name="bbn_tablet_item_icon_size">24dp</dimen>
+    <dimen name="bbn_tablet_item_height">72dp</dimen>
+    <dimen name="bbn_tablet_layout_padding_top">0dp</dimen>
+
+    <dimen name="bbn_badge_size">8dp</dimen>
+
+    <dimen name="simple_card_image_width">90dp</dimen>
+    <dimen name="simple_card_image_height">120dp</dimen>
+
+    <item name="app_gravity" format="integer" type="integer">80</item>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    class="com.starsoft.traveldiary.searchView.SearchViewLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clipToPadding="false"
+    android:clipChildren="false">
+
+    <include layout="@layout/search_bar"/>
+    <include layout="@layout/widget_search_bar_expanded" />
+
+</view>

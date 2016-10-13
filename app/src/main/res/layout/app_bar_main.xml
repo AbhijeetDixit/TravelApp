@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.starsoft.traveldiary.MActivity">
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <com.starsoft.traveldiary.ui.fonts.RalewaySTextView
+                    android:id="@+id/mainLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Doda Kopla"
+                    android:textColor="@android:color/white"
+                    />
+
+                <com.starsoft.traveldiary.ui.fonts.RalewayRTextView
+                    android:id="@+id/supportLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mainLocation"
+                    android:layout_alignLeft="@id/mainLocation"
+                    android:text="Surathkal"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <include layout="@layout/widget_search_bar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_edit_yellow_300_24dp"
+        app:layout_behavior="com.starsoft.traveldiary.FabBehavior"
+         />
+
+
+    <com.starsoft.traveldiary.bottomnavigation.BottomNavigation
+        android:id="@+id/BottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="@integer/app_gravity"
+        app:bbn_badgeProvider="@string/bbn_badgeProvider"
+        app:bbn_entries="@menu/bottombar_menu_4items"
+        app:layout_behavior="@string/bbn_default_view_behavior"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

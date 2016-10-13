@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+
+        title="Home" />
+    <tab
+        id="@+id/tab_map"
+
+        title="Nearby" />
+    <tab
+        id="@+id/tab_communities"
+
+        title="Communities" />
+
+    <tab
+        id="@+id/tab_settings"
+
+        title="Settings" />
+</tabs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bbn_item1"
+
+        android:title="Cloud Sync" />
+    <item
+        android:id="@+id/bbn_item2"
+
+        android:title="Chromecast" />
+    <item
+        android:id="@+id/bbn_item3"
+
+        android:title="Mail" />
+    <item
+        android:id="@+id/bbn_item4"
+
+        android:title="List" />
+
+</menu>

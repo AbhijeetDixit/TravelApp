@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.starsoft.traveldiary.LoginActivity"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:visibility="visible"
+            android:id="@+id/loginContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="96dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.starsoft.traveldiary.ui.fonts.RalewaySTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign In"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <com.starsoft.traveldiary.ui.fonts.CusEditText
+                        android:id="@+id/userEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Email or Username"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:maxLines="1"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <com.starsoft.traveldiary.ui.fonts.CusEditText
+                        android:id="@+id/userPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Password"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="Show Password"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <com.starsoft.traveldiary.ui.fonts.FBtn
+                    android:id="@+id/signBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign In"
+                    />
+
+
+                <com.starsoft.traveldiary.ui.fonts.RalewaySTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Or"
+                    />
+
+
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/googleSignBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    />
+
+
+                <com.starsoft.traveldiary.ui.fonts.QsRTextView
+                    android:id="@+id/signupText"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Create Account"
+                    android:textSize="16sp"
+                    android:textColor="@color/md_red_600"
+                    android:clickable="true"
+                    />
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <!-- Signup Container -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/signupContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="96dp"
+            android:visibility="gone"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.starsoft.traveldiary.ui.fonts.RalewaySTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <com.starsoft.traveldiary.ui.fonts.CusEditText
+                        android:id="@+id/userEmailSU"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Email or Username"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:maxLines="1"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <com.starsoft.traveldiary.ui.fonts.CusEditText
+                        android:id="@+id/userPasswordSU"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Password"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="Show Password"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <com.starsoft.traveldiary.ui.fonts.FBtn
+                    android:id="@+id/signupBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    />
+
+
+
+
+                <com.starsoft.traveldiary.ui.fonts.QsRTextView
+                    android:id="@+id/termsText"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="View Terms and Policies"
+                    android:textSize="16sp"
+                    android:textColor="@color/md_red_600"
+                    android:clickable="true"
+                    />
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

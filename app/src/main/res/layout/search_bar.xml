@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/search_box_collapsed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/search_height"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="start|center_vertical"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/search_key_line"
+                android:paddingLeft="@dimen/search_key_line"
+                android:paddingRight="@dimen/search_key_line"
+                android:paddingStart="@dimen/search_key_line">
+
+                <ImageView
+                    android:id="@+id/search_magnifying_glass"
+                    android:layout_width="@dimen/search_icon"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:src="@drawable/ic_search_grey_700_24dp"
+                    android:contentDescription="Search" />
+
+
+                <LinearLayout
+                    android:id="@+id/search_box_start_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/search_view_margin_text"
+                    android:layout_marginLeft="@dimen/search_view_margin_text"
+                    android:layout_marginRight="@dimen/search_view_margin_text"
+                    android:layout_marginStart="@dimen/search_view_margin_text"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+
+                <com.starsoft.traveldiary.ui.fonts.RalewayRTextView
+                    android:id="@+id/search_box_collapsed_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="Search places and more..."
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/textSearch"
+                    />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/search_icon"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView_mic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:src="@drawable/ic_mic_grey_700_24dp"
+                        android:contentDescription="Voice Search" />
+
+                    <ImageView
+                        android:id="@+id/imageView_clear"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:contentDescription="Voice Search" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
